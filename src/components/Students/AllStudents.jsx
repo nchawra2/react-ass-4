@@ -9,8 +9,6 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { FaEdit, FaPlusSquare } from "react-icons/fa";
 
-import { Link, NavLink } from "react-router-dom";
-
 function AllStudents() {
   const rows = [
     {
