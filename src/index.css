@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  color: white;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.navigation a:hover {
+  color: inherit;
+}
+
+.active {
+  background-color: #444;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
